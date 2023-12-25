@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		69673D652B3A00EA0033E953 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69673D642B3A00EA0033E953 /* HideKeyboardExtension.swift */; };
+		69673D672B3A0C250033E953 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69673D662B3A0C250033E953 /* BackgroundImageView.swift */; };
 		697BF8D52B2C839800768DC9 /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697BF8D42B2C839800768DC9 /* DevoteApp.swift */; };
 		697BF8D72B2C839800768DC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697BF8D62B2C839800768DC9 /* ContentView.swift */; };
 		697BF8D92B2C839A00768DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697BF8D82B2C839A00768DC9 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		695A460C2B2C8566000BFE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		69673D642B3A00EA0033E953 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		69673D662B3A0C250033E953 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		697BF8D12B2C839800768DC9 /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		697BF8D42B2C839800768DC9 /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		697BF8D62B2C839800768DC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				697BF8D62B2C839800768DC9 /* ContentView.swift */,
+				69673D662B3A0C250033E953 /* BackgroundImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				697BF8DE2B2C839A00768DC9 /* Persistence.swift in Sources */,
+				69673D672B3A0C250033E953 /* BackgroundImageView.swift in Sources */,
 				697BF8D72B2C839800768DC9 /* ContentView.swift in Sources */,
 				69673D652B3A00EA0033E953 /* HideKeyboardExtension.swift in Sources */,
 				69CC4D872B38A58B0086B80D /* Constant.swift in Sources */,
