@@ -43,6 +43,9 @@ struct ContentView: View {
                 let nsError = error as NSError
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
+            
+            task = ""
+            hideKeyboard()
         }
     }
 
@@ -57,6 +60,8 @@ struct ContentView: View {
                 let nsError = error as NSError
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
+            
+           
         }
     }
     
@@ -108,16 +113,16 @@ struct ContentView: View {
                 .navigationBarTitle("Daily Tasks", displayMode: .large)
                 .toolbar {
                     #if os(iOS)
-                    ToolbarItem(placement: .navigationBarLeading) {
+                    ToolbarItem(placement: .navigationBarTrailing) {
                         EditButton()
                     }
                     
                     #endif
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Button(action: addItem) {
-                            Label("Add Item", systemImage: "plus")
-                        }
-                    }
+//                    ToolbarItem(placement: .navigationBarTrailing) {
+//                        Button(action: addItem) {
+//                            Label("Add Item", systemImage: "plus")
+//                        }
+//                    }
             } //: TOOLBAR
             } //: VSTACK
             Text("Select an item")
