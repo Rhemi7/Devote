@@ -92,13 +92,20 @@ struct ContentView: View {
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.3), radius: 12)
                     .padding(.vertical, 0)
                     .frame(maxWidth: 640)
-                    
-                    // MARK: - NEW TASK ITEM VIEW
-                    
-                    if showNewTaskItem {
-                        NewTaskItemView()
-                    }
                 } //: VSTACK
+                
+                // MARK: - NEW TASK ITEM VIEW
+                
+                if showNewTaskItem {
+                    BlankView()
+                        .onTapGesture {
+                            withAnimation() {
+                                showNewTaskItem = false
+                            }
+                        }
+                    NewTaskItemView()
+                }
+                
             } //: ZSTACK
             .onAppear() {
                 UITableView.appearance().backgroundColor = UIColor.clear
