@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		695BF4402B5803AF00CCE977 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BF43F2B5803AF00CCE977 /* SoundPlayer.swift */; };
+		695BF4482B58113200CCE977 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695BF4472B58113200CCE977 /* WidgetKit.framework */; };
+		695BF44A2B58113200CCE977 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695BF4492B58113200CCE977 /* SwiftUI.framework */; };
+		695BF44D2B58113200CCE977 /* DevoteWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BF44C2B58113200CCE977 /* DevoteWidgetBundle.swift */; };
+		695BF44F2B58113200CCE977 /* DevoteWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BF44E2B58113200CCE977 /* DevoteWidget.swift */; };
+		695BF4512B58113400CCE977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695BF4502B58113400CCE977 /* Assets.xcassets */; };
+		695BF4552B58113400CCE977 /* DevoteWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 695BF4452B58113200CCE977 /* DevoteWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		695BF45A2B58174900CCE977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697BF8D82B2C839A00768DC9 /* Assets.xcassets */; };
+		695BF45B2B58179C00CCE977 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CC4D862B38A58B0086B80D /* Constant.swift */; };
 		69673D652B3A00EA0033E953 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69673D642B3A00EA0033E953 /* HideKeyboardExtension.swift */; };
 		69673D672B3A0C250033E953 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69673D662B3A0C250033E953 /* BackgroundImageView.swift */; };
 		697BF8D52B2C839800768DC9 /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697BF8D42B2C839800768DC9 /* DevoteApp.swift */; };
@@ -26,9 +34,40 @@
 		69CC4D872B38A58B0086B80D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CC4D862B38A58B0086B80D /* Constant.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		695BF4532B58113400CCE977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 697BF8C92B2C839800768DC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 695BF4442B58113200CCE977;
+			remoteInfo = DevoteWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		695BF4592B58113400CCE977 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				695BF4552B58113400CCE977 /* DevoteWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		695A460C2B2C8566000BFE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		695BF43F2B5803AF00CCE977 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		695BF4452B58113200CCE977 /* DevoteWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevoteWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		695BF4472B58113200CCE977 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		695BF4492B58113200CCE977 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		695BF44C2B58113200CCE977 /* DevoteWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteWidgetBundle.swift; sourceTree = "<group>"; };
+		695BF44E2B58113200CCE977 /* DevoteWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteWidget.swift; sourceTree = "<group>"; };
+		695BF4502B58113400CCE977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		695BF4522B58113400CCE977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69673D642B3A00EA0033E953 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		69673D662B3A0C250033E953 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		697BF8D12B2C839800768DC9 /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +88,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		695BF4422B58113200CCE977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695BF44A2B58113200CCE977 /* SwiftUI.framework in Frameworks */,
+				695BF4482B58113200CCE977 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		697BF8CE2B2C839800768DC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,10 +116,32 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		695BF4462B58113200CCE977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				695BF4472B58113200CCE977 /* WidgetKit.framework */,
+				695BF4492B58113200CCE977 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		695BF44B2B58113200CCE977 /* DevoteWidget */ = {
+			isa = PBXGroup;
+			children = (
+				695BF44C2B58113200CCE977 /* DevoteWidgetBundle.swift */,
+				695BF44E2B58113200CCE977 /* DevoteWidget.swift */,
+				695BF4502B58113400CCE977 /* Assets.xcassets */,
+				695BF4522B58113400CCE977 /* Info.plist */,
+			);
+			path = DevoteWidget;
+			sourceTree = "<group>";
+		};
 		697BF8C82B2C839800768DC9 = {
 			isa = PBXGroup;
 			children = (
 				697BF8D32B2C839800768DC9 /* Devote */,
+				695BF44B2B58113200CCE977 /* DevoteWidget */,
+				695BF4462B58113200CCE977 /* Frameworks */,
 				697BF8D22B2C839800768DC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				697BF8D12B2C839800768DC9 /* Devote.app */,
+				695BF4452B58113200CCE977 /* DevoteWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +230,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		695BF4442B58113200CCE977 /* DevoteWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695BF4562B58113400CCE977 /* Build configuration list for PBXNativeTarget "DevoteWidgetExtension" */;
+			buildPhases = (
+				695BF4412B58113200CCE977 /* Sources */,
+				695BF4422B58113200CCE977 /* Frameworks */,
+				695BF4432B58113200CCE977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevoteWidgetExtension;
+			productName = DevoteWidgetExtension;
+			productReference = 695BF4452B58113200CCE977 /* DevoteWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		697BF8D02B2C839800768DC9 /* Devote */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 697BF8E42B2C839A00768DC9 /* Build configuration list for PBXNativeTarget "Devote" */;
@@ -166,10 +254,12 @@
 				697BF8CD2B2C839800768DC9 /* Sources */,
 				697BF8CE2B2C839800768DC9 /* Frameworks */,
 				697BF8CF2B2C839800768DC9 /* Resources */,
+				695BF4592B58113400CCE977 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				695BF4542B58113400CCE977 /* PBXTargetDependency */,
 			);
 			name = Devote;
 			productName = Devote;
@@ -186,6 +276,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					695BF4442B58113200CCE977 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					697BF8D02B2C839800768DC9 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -205,11 +298,21 @@
 			projectRoot = "";
 			targets = (
 				697BF8D02B2C839800768DC9 /* Devote */,
+				695BF4442B58113200CCE977 /* DevoteWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		695BF4432B58113200CCE977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695BF45A2B58174900CCE977 /* Assets.xcassets in Resources */,
+				695BF4512B58113400CCE977 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		697BF8CF2B2C839800768DC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +328,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		695BF4412B58113200CCE977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695BF44F2B58113200CCE977 /* DevoteWidget.swift in Sources */,
+				695BF44D2B58113200CCE977 /* DevoteWidgetBundle.swift in Sources */,
+				695BF45B2B58179C00CCE977 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		697BF8CD2B2C839800768DC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,7 +359,69 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		695BF4542B58113400CCE977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 695BF4442B58113200CCE977 /* DevoteWidgetExtension */;
+			targetProxy = 695BF4532B58113400CCE977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		695BF4572B58113400CCE977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WULX6P3673;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DevoteWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DevoteWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decentraa.Devote.DevoteWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		695BF4582B58113400CCE977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WULX6P3673;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DevoteWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DevoteWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decentraa.Devote.DevoteWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		697BF8E22B2C839A00768DC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -364,6 +539,7 @@
 		697BF8E52B2C839A00768DC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +570,7 @@
 		697BF8E62B2C839A00768DC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -424,6 +601,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		695BF4562B58113400CCE977 /* Build configuration list for PBXNativeTarget "DevoteWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695BF4572B58113400CCE977 /* Debug */,
+				695BF4582B58113400CCE977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		697BF8CC2B2C839800768DC9 /* Build configuration list for PBXProject "Devote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
