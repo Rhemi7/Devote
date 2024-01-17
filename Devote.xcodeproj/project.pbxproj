@@ -21,6 +21,7 @@
 		697C93BE2B3C6519001307CD /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C93BD2B3C6519001307CD /* NewTaskItemView.swift */; };
 		697C93C02B3C6C66001307CD /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C93BF2B3C6C66001307CD /* BlankView.swift */; };
 		697C93C22B3C94B5001307CD /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C93C12B3C94B5001307CD /* ListRowItemView.swift */; };
+		697C93C62B3C96CC001307CD /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C93C52B3C96CC001307CD /* CheckboxStyle.swift */; };
 		69CC4D872B38A58B0086B80D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CC4D862B38A58B0086B80D /* Constant.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		697C93BD2B3C6519001307CD /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
 		697C93BF2B3C6C66001307CD /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		697C93C12B3C94B5001307CD /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		697C93C52B3C96CC001307CD /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
 		69CC4D862B38A58B0086B80D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 		697BF8EF2B2C84A600768DC9 /* Style */ = {
 			isa = PBXGroup;
 			children = (
+				697C93C52B3C96CC001307CD /* CheckboxStyle.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				697C93C22B3C94B5001307CD /* ListRowItemView.swift in Sources */,
 				697BF8E12B2C839A00768DC9 /* Devote.xcdatamodeld in Sources */,
 				697BF8D52B2C839800768DC9 /* DevoteApp.swift in Sources */,
+				697C93C62B3C96CC001307CD /* CheckboxStyle.swift in Sources */,
 				697C93BE2B3C6519001307CD /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
