@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		695BF4402B5803AF00CCE977 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BF43F2B5803AF00CCE977 /* SoundPlayer.swift */; };
 		69673D652B3A00EA0033E953 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69673D642B3A00EA0033E953 /* HideKeyboardExtension.swift */; };
 		69673D672B3A0C250033E953 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69673D662B3A0C250033E953 /* BackgroundImageView.swift */; };
 		697BF8D52B2C839800768DC9 /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697BF8D42B2C839800768DC9 /* DevoteApp.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		695A460C2B2C8566000BFE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		695BF43F2B5803AF00CCE977 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		69673D642B3A00EA0033E953 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		69673D662B3A0C250033E953 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		697BF8D12B2C839800768DC9 /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				69CC4D862B38A58B0086B80D /* Constant.swift */,
+				695BF43F2B5803AF00CCE977 /* SoundPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				697BF8E12B2C839A00768DC9 /* Devote.xcdatamodeld in Sources */,
 				697BF8D52B2C839800768DC9 /* DevoteApp.swift in Sources */,
 				697C93C62B3C96CC001307CD /* CheckboxStyle.swift in Sources */,
+				695BF4402B5803AF00CCE977 /* SoundPlayer.swift in Sources */,
 				697C93BE2B3C6519001307CD /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
